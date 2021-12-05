@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="threed">
+        
+        <span class="links" id="links">
+            <a id="x" onclick="tgl()"><h1>x</h1></a>
+            <a href="#">Collections</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </span>
+    </div>
+    <nav>
+        <a class="toggle-button" id="bts" onclick="tgl()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="mainhd"><a href="#"><img src="images/logo.svg" alt=""></a></div>
+        <span class="links">
+            <a href="#">Collections</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </span>
+        <span class="cart">
+            <img class="cart-icon" src="images/icon-cart.svg" alt="">
+            <img class="avatar" src="images/image-avatar.png" alt="">
+        </span>
+    </nav>
+
+    <main>
+        <div class="left">
+            <img src="images/image-product-1.jpg" alt="" class="product1">
+            <a class="prev" onclick="">&#10094;</a>
+            <a class="next" onclick="">&#10095;</a>
+            <section class="img-row">
+                <img src="images/image-product-1-thumbnail.jpg" alt="" class="product-thumb">
+                <img src="images/image-product-2-thumbnail.jpg" alt="" class="product-thumb">
+                <img src="images/image-product-3-thumbnail.jpg" alt="" class="product-thumb">
+                <img src="images/image-product-4-thumbnail.jpg" alt="" class="product-thumb">
+            </section>
+        </div>
+        <div class="right">
+            <p class="name">SNEAKER COMPANY</p>
+            <h1 class="heading1">Fall Limited Edition Sneakers</h1>
+            <p class="des">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <div class="sellp">
+                    <h1>$125.00 &nbsp;<span class="dis">50%</span></h1>
+                </div>
+            
+            <p class="price"><strike>$250.00</strike></p>
+            <div class="buttons">
+                <div class="counter">
+                    <button>-</button>
+                    <input type="text" value="0">
+                    <button>+</button>
+                </div>
+                <div class="cart">
+                    <button><i><img class="cc" src="images/icon-cart.svg" alt=""></i>&nbsp;&nbsp; Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <div style="height: 100px;">
+
+       </div>
+    </footer>
+</body>
+</html>
