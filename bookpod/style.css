@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Roboto:wght@300;500&family=Spartan:wght@500;700&display=swap');
+*{
+   padding: 0px;
+   margin:0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Spartan', sans-serif;
+}
+.tglmn {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    display: none;
+}
+.tglmn li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    list-style: none;
+    text-align: center;
+    transition: 0.3s;
+}
+.tglmn li:hover{
+background-color: gray;
+}
+.tglmn a {
+    text-decoration: none;
+    color: black;
+    
+}
+.tglmn span {
+    position: absolute;
+    font-size: 2rem;
+    top: -24px;
+    left: 15px;
+    color: black;
+    cursor: pointer;
+}
+.tglmn span:hover{
+    color: gray;
+}
+.toggle-button .bar {
+    height: 4px;
+    width: 30px;
+    background-color: black;
+    
+}
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    justify-content: space-around;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: -15px;
+    cursor: pointer;
+    
+}
+
+.navbar {
+    padding-top: 27px;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+.hdng{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.hdng h1{
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    cursor: pointer;
+   
+}
+.dot h1{
+    font-size: 40px;
+    line-height: 40px;
+    color: #004687;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.navbar .hdng{
+    float: left;
+    
+}
+.lin span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+    cursor: pointer;
+    
+}
+.lin {
+padding-top: 15px;
+
+    padding-left: 100px;
+
+}
+.search {
+    
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.search input{
+    padding: 9px;
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px; 
+    width: 185px;  
+    
+}
+.search i {
+    position: absolute;
+    color: #cfcdcd;
+}
+.icon{
+     padding: 10px;
+     min-width: 40px;
+     margin-bottom: 9px;
+}
+
+
+::placeholder{
+    color: #cfcdcd;
+}
+.subbanner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.two {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subnr h1{
+    text-align: center;
+}
+.banner {
+    margin-top: 70px;
+}
+.subbanner h1 , .subnr h1 ,.subbanner span{
+    font-size: clamp(0.5rem,12.5vw,4rem);
+    text-align: center;
+}
+.two {
+    color: #004687;
+}
+.sub-banner {
+    text-align: center;
+    font-size: clamp(0.1rem,12.5vw,1.75rem);
+    color: #9c9a9a;
+    margin-top: 20px;
+}
+.btn button {
+    padding: 20px;
+    width: 200px;
+    background-color: #004687;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn button:hover{
+    background-color: #5389bb;
+}
+.btn {
+    margin-top: 25px;
+}
+.limbs {
+    display: flex;
+    margin-top: 80px;
+    position: relative;
+    height: 525px;
+}
+.photo {
+    margin-left: 80px;
+   
+}
+.photo img {
+    position: absolute;
+    
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.tag {
+    z-index: 1;
+    max-width: 400px;
+    width: 100%;
+    max-height: 250px;
+    height: auto;
+    padding: 45px;
+    position: absolute;
+    background-color: white;
+    right: 150px;
+    top: 80px;
+    border-radius: 15px;
+    -webkit-box-shadow: 17px 12px 22px -5px rgba(0,0,0,0.6);
+-moz-box-shadow: 17px 12px 22px -5px rgba(0,0,0,0.6);
+box-shadow: 17px 12px 22px -5px rgba(0,0,0,0.6);
+    
+}
+.logos  {
+    z-index: 1;
+    position: absolute;
+    bottom: 80px;
+    right:292px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#nova {
+    fill: grey;
+}
+.logos svg{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.testimonials {
+    background-color: #004687;
+}
+.main {
+    padding-top: 60px;
+    margin-top:80px;
+    text-align: center;
+    color: white;
+    font-size: clamp(0.1rem,1212.5vw,1.2rem );
+    
+}
+.client img{
+   width :80px;
+   height: 80px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.client {
+    color: white;
+    text-align: center;
+    font-size: clamp(0.1rem,12.5vw,1.126rem);
+    
+}
+.clients {
+    display: flex;
+    flex-direction: column;
+}
+.start {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.testimonials {
+    height: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 25px;
+    margin-bottom: 150px;
+    -webkit-box-shadow: 1px 53px 44px -53px rgba(0,0,0,0.47);
+-moz-box-shadow: 1px 53px 44px -53px rgba(0,0,0,0.47);
+box-shadow: 1px 53px 44px -53px rgba(0,0,0,0.47);
+}
+.tag h3:first-child {
+    color: #004687;
+    font-weight: bold;
+}
+.tag h3:last-child {
+    color: #acacac;
+}
+.res {
+    display: none;
+}
+
+
+@media(max-width:1024px){
+    .tglmn{
+        display: none;
+    }
+    .lin{
+        display: none;
+    }
+    .tag {
+        right: 26%;
+        top: 41%;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .limbs {
+        height: 900px;
+        position: relative;
+        justify-content: center;
+        width: 100%;
+    }
+    .photo{
+        width: 100%;
+        margin-left: 164px;
+        
+    }
+    .logos {
+        right: 418px;
+    }
+}
+@media (max-width:768px){
+    .photo {
+        margin-left: 39px;
+    }
+    .tag {
+        right: 17%;
+        top: 51%;
+    }
+    .logos{
+        right: 296px;
+        bottom: 10px;
+    }
+    .testimonials {
+        margin-right: 34px;
+        margin-left: 34px;
+    }
+    .search {
+        display: none;
+    }
+    .toggle-button{
+        left: 50px;
+        position: absolute;
+    }
+    .navbar {
+        justify-content: center;
+    }
+    .res {
+       display: flex;
+       position: absolute;
+       right: 30px;
+    }
+    .res i{
+        cursor: pointer;
+        
+    }
+    .start {
+        flex-direction: column;
+        left: 160px;
+        position: absolute;
+    }
+    .start .client{
+        padding-bottom: 30px;
+    }
+    .end .client{
+        padding-bottom: 30px;
+    }
+    .end{
+        flex-direction: column;
+        position: absolute;
+        right: 160px;
+    }
+    .clients{
+        flex-direction: row;
+        justify-content: center;
+        margin:40px;
+        height: 600px;
+    }
+}
+@media(min-width:1024px){
+
+    .clients {
+        padding:30px
+    }
+    .client {
+        padding: 20px;
+    }
+    .testimonials {
+        height: 600px;
+    }
+}
+@media(max-width:720px){
+    .testimonials {
+        height: auto;
+    }
+    .photo img {
+        width: 89%;
+    }
+}
+
+@media (max-width:648px){
+    .tag{
+        right: 11%;
+        top: 42%;
+    }
+    .logos{
+        right: 36%;
+        top: 92%;
+    }
+}
+@media (max-width:448px){
+    .client img{
+       width: 60px;
+       height: 60px;
+    }
+    .client {
+        margin: 40px;
+    }
+    .clients {
+        width: auto;
+    }
+    .start {
+        left: 219px;
+    }
+    .end {
+        right: 220px;
+    }
+    .testimonials {
+        height:900px;
+    }
+    .client h3 {
+        font-size: 1rem;
+    }
+    .main h1{
+        font-size: 1.5rem;
+    }
+    .tag h3:first-child{
+        font-size: 1.0rem;
+    }
+    .tag h1 {
+        font-size: 1.5rem;
+    }
+    .tag h3:last-child{
+        font-size: 0.8rem;
+    }
+    .tag {
+        width: 50%;
+        top: 28%;
+        right: 14%;
+    }
+    .logos{
+        right: 30%;
+        top: 78%;
+        height: auto;
+    }
+    .limbs {
+        height: 755px;
+        
+    }
+    .photo {
+        margin-left: 27px;
+    }
+    .main {
+        margin-top: 0px;
+    }
+    .banner h1{
+       font-size: 2.5rem;
+    }
+    .sub-banner p{
+        font-size: 1rem;
+    }
+}
