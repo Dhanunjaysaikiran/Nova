@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Roboto:wght@300;500&family=Spartan:wght@500&display=swap');
+.main {
+    width:100%;
+    height: 901px;
+    position: relative;
+}
+body {
+    background-color: #E5E5E5;
+}
+.logo {
+    position: absolute;
+width: 160px;
+height: 36.02px;
+left: 60px;
+top: 60px;
+}
+.back {
+    position: absolute;
+    width: 1752.96px;
+    height: 392.25px;
+    left: -117.75px;
+    top: 454.11px;
+    background: #F0F0F0;
+    opacity: 0.45;
+    transform: rotate(-30deg);
+}
+.border1{
+    position: absolute;
+width: 769.01px;
+height: 13.44px;
+left: -124.11px;
+top: 696.09px;
+background: #3766E8;
+opacity: 0.2;
+transform: rotate(-30deg);
+}
+.border2{
+position: absolute;
+width: 769.01px;
+height: 13.44px;
+left: 792px;
+top: 636.51px;
+background: #3766E8;
+opacity: 0.2;
+transform: rotate(-30deg);
+}
+.head{
+display: flex;
+padding: 40px 91px;
+position: absolute;
+width: 560px;
+height: auto;
+left: 330px;
+top: 161px;
+background: #FFFFFF;
+box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+border-radius: 15px;
+
+flex-direction: column;
+}
+
+.crown{
+    top: 0px;
+    width: 51px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    margin: 20px auto;
+}
+.crown .rec1 {
+    width: 11.05px;
+    height: 27.84px;
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+    margin-right: -1px;
+    margin-top: 17px;
+}
+.crown .rec2 {
+   width: 11.05px;
+   height:42.37px;
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.crown .rec3{
+width: 11.05px;
+height: 21.55px;
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+    margin-top: -18px;
+    margin-left: -2px;
+}
+.text h1{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+text-align: center;
+}
+.text {
+    margin-top: px;
+}
+.foot {
+    position: absolute;
+    width: 185px;
+    height: 19px;
+    left: 627px;
+    top: 1138px;
+    
+    /* Caption */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+.sub{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+/* or 131% */
+
+text-align: center;
+
+/* Text Primary */
+
+color: #545454;
+}
+.comp {
+    background: #FFFFFF;
+/* Gray Dark */
+
+border: 1px solid #eaf2fa;
+box-sizing: border-box;
+border-radius: 6px;
+}
+form input{
+    width: 100%;
+    height: 37px;
+    border: 1px solid #CED4DA;
+}
+
+form select{
+    width: 102%;
+    height: 44px;
+    border: 1px solid #CED4DA;
+}
+form label {
+    color: #545454;
+}
+form {
+    margin-top: 27px;
+}
+.opt{
+    margin-top: 28px;
+}
+.opt label{
+  color: #545454;
+}
+.container p {
+    font-size: 14px;
+}
+.grid1{
+    background-color: #F0F0F0;
+    padding: 4px 8px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 2px;
+
+}
+.grid2{
+    background-color: #F0F0F0;
+    padding: 4px 8px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 2px;
+}
+.grid3{
+    background-color: #3766E8;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    width: auto;
+    margin: 2px;
+    border-radius: 2px;
+}
+.grid4{
+    background-color: #F0F0F0;
+    padding: 4px 8px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 2px;
+}
+.grid5{
+    background-color: #F0F0F0;
+    padding: 4px 8px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 2px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 10px;
+    
+}
+.container div:hover{
+    cursor: pointer;
+
+}
+button{
+    background-color: #3766E8;
+    color: white;
+    padding: 10px auto;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
