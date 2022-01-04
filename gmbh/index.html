@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #f5f6fb;
+            font-family: "lato";
+        }
+
+        .main {
+            background-color: #ffffff;
+            width: 600px;
+            height: auto;
+            border-radius: 20px;
+            padding: 60px 45px;
+            margin: 65px auto;
+        }
+
+        .logo1 img {
+            width: 162px;
+        }
+
+        .logo1 {
+            margin-bottom: 50px;
+        }
+
+        .tag1 h1 {
+            font-family: "Lato";
+            color: #282828;
+            font-size: 30px;
+            font-weight: 900;
+            font-style: italic;
+            font-family: "Lato", sans-serif;
+        }
+
+        .tag1 p {
+            font-size: 21px;
+            font-family: "Lato", sans-serif;
+            line-height: 2rem;
+        }
+
+        .subtag span {
+            font-family: "Lato";
+            color: #1b98cf;
+            font-weight: 700;
+        }
+
+        .subtag {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .head {
+            width: 100%;
+            height: 35px;
+            background-color: #4099c0;
+            display: flex;
+            align-items: center;
+        }
+
+        .head p {
+            color: white;
+            margin-left: 15px;
+            font-weight: 700;
+            font-family: "Lato", sans-serif;
+        }
+
+        .tbody {
+            width: auto;
+            height: auto;
+            background-color: #edf4fc;
+            padding: 30px;
+        }
+
+        .tbody p {
+            font-family: "Lato";
+            color: #000000;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .circle {
+            margin: 20px;
+            width: 87px;
+            height: 87px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Lato";
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        #c1 {
+            background-color: #38b0dd;
+            color: #ffffff;
+        }
+
+        #c {
+            background-color: white;
+        }
+
+        .box1 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .cont {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cont2 {
+            text-align: center;
+            font-family: "Lato";
+            color: #282828;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .foot {
+            background-color: #ffffff;
+            border-radius: 10px;
+            height: 60px;
+            margin-top: 15px;
+            font-family: "Lato";
+            color: #38b0dd;
+            font-size: 24px;
+            font-weight: 900;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .bottom {
+            font-family: "Lato";
+            color: #282828;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        .bottom a {
+            color: #38b0dd;
+        }
+
+        .foo img {
+            width: 597px;
+        }
+
+        .foo {
+            margin: 0px auto;
+        }
+
+        .social {
+            max-width: 100%;
+            margin: auto auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social img {
+            margin: 10px;
+        }
+
+        .end {
+            text-align: center;
+            margin-bottom: 100px;
+            margin-top: 20px;
+            font-family: "Lato";
+            color: #666666;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .main .social {
+            display: none;
+        }
+
+        .main .end {
+            display: none;
+        }
+
+        @media (min-width: 320px) {
+            .tag1 h1 {
+                font-size: calc(1.25rem + ((1vw - 3.2px) * 0.625));
+                min-height: 0vw;
+            }
+
+            .tag1 p {
+                font-size: calc(0.875rem + ((1vw - 3.2px) * 0.4375));
+                min-height: 0vw;
+            }
+
+            .bottom {
+                font-size: calc(0.9375rem + ((1vw - 3.2px) * 0.4375));
+                min-height: 0vw;
+            }
+        }
+
+        @media (min-width: 1920px) {
+            .tag1 h1 {
+                font-size: 30px;
+            }
+
+            .tag1 p {
+                font-size: 21px;
+            }
+
+            .bottom {
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 1080px) {
+            .tag1 h1 {
+                font-size: 56px;
+            }
+
+            .tag1 {
+                margin-bottom: 90px;
+            }
+
+            body {
+                position: relative;
+            }
+
+            .main {
+                padding: 40px;
+                margin-top: 0px;
+                width: 100%;
+                border-radius: 0px;
+                position: absolute;
+                top: 0px;
+                margin-bottom: 100px;
+            }
+
+            .logo1 {
+                margin-top: 100px;
+                margin-bottom: 160px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .logo1 img {
+                max-width: 488px;
+                max-height: 71px;
+                width: auto;
+                height: auto;
+            }
+
+            .circle {
+                width: 200px;
+                height: 200px;
+
+                margin: 10px;
+            }
+
+            .tab {
+                width: auto;
+            }
+
+            .foo img {
+                width: 100%;
+            }
+
+            .main .social {
+                margin-top: 160px;
+                margin-bottom: 50px;
+                display: flex;
+            }
+
+            .bottom {
+                margin: 90px auto;
+            }
+
+            .main .end {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .circle {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        @media (max-width: 580px) {
+            .circle {
+                width: 100px;
+                height: 100px;
+            }
+
+            .tbody p,
+            .box1 #text {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .circle {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="logo1">
+            <img src="https://pocketarena.com/images/static/pa_logo_mailform.png
+                " alt="">
+        </div>
+        <div class="tag1">
+            <h1>Dear Jason,</h1>
+            <div class="subtag">
+                <p>Your <b>[castle name]</b> has been successfully sold to <b>[buyer name]</b> for <br><span>[selling
+                        price]</span></p>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="head">
+                <p>Revenue share detail</p>
+            </div>
+            <div class="tbody">
+                <p>1.Revenue: </p>
+                <div class="box1">
+                    <div class="cont">
+                        <div class="circle" id="c1">€300</div>
+                    </div>
+                    <div class="cont">
+                        <div class="circle" id="c">€1,000</div>
+                    </div>
+                    <div class="cont">
+                        <div class="circle" id="c">€700</div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cont2">
+                        <p>You have bought <br> the castle at price</p>
+                    </div>
+                    <div class="cont2">
+                        <p>You have sold <br> the castle at price</p>
+                    </div>
+                    <div class="cont2">
+                        <p>Revenue from<br> this sell</p>
+                    </div>
+                </div>
+                <br><br>
+                <p>2.Revenue is divided to:</p>
+                <div class="box1">
+                    <div class="cont">
+                        <div class="circle" id="c">€126</div>
+                    </div>
+                    <div class="cont">
+                        <div class="circle" id="c">€28</div>
+                    </div>
+                    <div class="cont">
+                        <div class="circle" id="c1">€546</div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="cont2">
+                        <p>Player's revenue<br> share</p>
+                    </div>
+                    <div class="cont2">
+                        <p>Emoji Game's <br> revenue share</p>
+                    </div>
+                    <div class="cont2">
+                        <p>Your revenue<br>share</p>
+                    </div>
+                </div>
+                <br><br>
+                <p>3.You have received</p>
+                <div class="foot">€846</div>
+            </div>
+            <div class="bottom">
+                <p>For further information about the revenue share, please check <a href="">this article</a>.</p>
+                <p>To check your balance, please go to <a href="">PA WALLET</a>.</p>
+                <br>
+
+                <p>This is an automated email-Please <b>don't reply to</b> this email.</p>
+                <br>
+                <p>Best regards,<br>Pocket Arena Team.</p>
+                <br>
+            </div>
+            <div class="foo">
+                <img src="https://pocketarena.com/images/static/banner_castle_defense.png" alt="">
+            </div>
+            <div class="social">
+                <img src="https://pocketarena.com/assets/main/bottom/icon_telegram_w.png" alt="">
+                <img src="https://pocketarena.com/assets/main/bottom/icon_facebook_w.png" alt="">
+                <img src="https://pocketarena.com/assets/main/bottom/icon_twitter_w.png" alt="">
+            </div>
+            <div class="end">
+                <p>All Rights Reserved Ⓒ 2012-2021 Emoji Games Gmbh</p>
+            </div>
+        </div>
+    </div>
+    <div class="social">
+        <img src="https://pocketarena.com/assets/main/bottom/icon_telegram_w.png" alt="">
+        <img src="https://pocketarena.com/assets/main/bottom/icon_facebook_w.png" alt="">
+        <img src="https://pocketarena.com/assets/main/bottom/icon_twitter_w.png" alt="">
+    </div>
+    <div class="end">
+        <p>All Rights Reserved Ⓒ 2012-2021 Emoji Games Gmbh</p>
+    </div>
+
+
+</body>
+
+</html>
