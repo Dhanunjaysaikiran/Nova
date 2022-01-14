@@ -1,0 +1,109 @@
+.chatbot {
+    width: 350px;
+    
+    height: 565px;
+    border-radius: 15px;
+    position: absolute;
+    top: 252px;
+    right: 20px;
+    z-index: 0;
+    display: none;
+    transition: display 1s;
+}
+.pannel{
+    height: 50%;
+    width: 100%;
+    background: rgb(255,128,0);
+background: linear-gradient(90deg, rgba(255,128,0,1) 0%, rgba(248,73,4,1) 78%);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.text {
+    padding: 20px 40px;
+    color: white;
+    display: block;
+    animation: fade-inout 3s  ;
+}
+
+@keyframes fade-inout {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.text h3{
+    margin-block-start: 0px;
+}
+.panel2{
+    height: 60%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.convo{
+    position: absolute;
+    height: 377px;
+    width: 330px;
+    background-color: rgb(255, 255, 255);
+    bottom: 22px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.robo{
+    position: absolute;
+    top: 595px;
+    right: 0px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: rgb(255, 102, 0);
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+}
+.robo:active{
+    background-color: chocolate;
+}
+.text2 {
+    padding: 25px 25px;
+    display: block;
+
+    
+}
+.end{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.start-convo {
+    width: 75%;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+}
+ul li {
+    font-size: 12px;
+    margin: 2px;
+}
+ul {
+    border: 1px rgb(204, 202, 202) solid;
+    padding-inline-start: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+}
+ul li::before {
+    content: "\2022";
+    color: rgb(245, 113, 52);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  #anim{
+    animation: fade-inout 3s  ;
+  }
