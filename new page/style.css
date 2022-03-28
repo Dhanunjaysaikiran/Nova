@@ -61,7 +61,7 @@ button {
 }
 .lappy,.mobile,.ios{
  width: 33.33%;
- height: 621px;
+ height: 592px;
  z-index: 1;
 }
 .board1{
@@ -146,7 +146,7 @@ button {
 }
 
 .medium {
-    padding: 3rem 1rem 3rem 6rem;
+    padding: 3rem 1rem 3rem 1rem;
     color: black;
     width: 33.33%;
     background-color: white;
@@ -158,11 +158,14 @@ button {
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+
   
 }
-
-.small {
+.pc {
     width: 33.33%;
+}
+.small {
+    width: 100%;
     background-color: white;
     padding: 3rem 3rem 3rem 3rem;
     color: black;
