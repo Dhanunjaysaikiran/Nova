@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 function App() {
   const [tasks, setData] = useState([])
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos").then((result) => {
+    fetch('https://jsonplaceholder.typicode.com/todos').then((result) => {
       result.json().then((resp) => {
         setData(resp)
       })
@@ -75,7 +75,7 @@ function App() {
 
       <div className='gridbox'>
 
-        {tasks.sort((a, b) => a.id > b.id ? 1 : -1).slice(0,50).map((tasks) => {
+        {tasks.sort((a, b) => a.id > b.id ? 1 : -1).map((tasks) => {
           return (
             <div className='cont' key={tasks.id}>
               <div className='box'>
