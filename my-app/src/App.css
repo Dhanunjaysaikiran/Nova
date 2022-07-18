@@ -90,12 +90,13 @@ body button {
 .top {
   height: 50%;
   width: 100%;
-  border-bottom: 1px solid #5c5c5c;
+  
   opacity: 80%;
   box-sizing: border-box;
   padding: 20px;
 }
 .bot {
+  border-top: 1px solid #5c5c5c;
   display: flex;
   align-items: center;
   justify-content: space-between;
