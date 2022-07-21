@@ -462,6 +462,9 @@ img {
 .skills__react{
   width: 60%;
 }
+.skills__flutter{
+  width: 50%;
+}
 .skills__close .skills__list{
   height: 0;
   overflow: hidden;
