@@ -462,6 +462,15 @@ img {
 .skills__react{
   width: 60%;
 }
+.skills__php{
+  width: 70%;
+}
+.skills__dbms{
+  width: 80%;
+}
+.skills__node{
+  width: 30%;
+}
 .skills__flutter{
   width: 50%;
 }
