@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+}
+.input {
+  margin-top: 4rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  margin-bottom: 700px;
+  outline: none;
+}
+.logo {
+  right: 20px;
+  width: 60px;
+  position: absolute;
+}
+.logo img {
+  width: 100%;
+}
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background-image: url("./logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.suggest {
+  width: 900px;
+  height: max-content;
+  background-color: white;
+  top: 8rem;
+  z-index: 2;
+  position: absolute;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  border-radius: 4px;
+  -webkit-box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 6px 15px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  cursor: pointer;
+  display: none;
+  transition: .3s;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 2rem 0 2rem 0;
+  gap: 2rem;
+}
+.parent {
+  width: 180px;
+}
+.parent img {
+  width: 180px;
+  height: 260px;
+}
+.popular h1 {
+  margin-bottom: 2rem;
+}
+.popular p {
+  margin-bottom: .5rem;
+}
+#new-page{
+  display: none;
+}
+#lining{
+  border: 1px solid grey;
+  margin: 2rem;
+}
+.new{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+.flex-box{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cont-1{
+  width: 20%;
+  /* background-color: black; */
+ margin-right: 1rem
+}
+.flex{
+  display: flex;
+
+  align-items: center;
+  margin-top:1rem;
+  justify-content: space-between;
+}
+
+.grid-box{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-box .photo{
+  width: 180px;
+ position: relative;
+ object-fit: contain;
+}
+.photo img{
+  width: 150px;
+  height: 200px;
+ 
+}
+.cont-2{
+  width: 80%;
+}
+
+.title{
+  width: 180px;
+  height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.bot {
+  margin-bottom: 3rem;
+}
+.price {
+  color: rgb(23, 158, 247);
+}
+.center {
+  bottom: 0rem;
+  text-align: center;
+  width: 150px;
+  z-index: 2;
+  position: absolute;
+  background-color: rgb(23, 158, 247);
+  padding: .5rem;
+  opacity: 80%;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}
+.stars{
+  display: flex;
+  align-items: center;
+  
+}
+
+
