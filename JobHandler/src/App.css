@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  
+}
+.flex-centre{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  
+}
+#desc-area {
+  width:40%;
+  height: 200px;
+  outline: none;
+}
+
+.part{
+  
+  margin-bottom: .5rem;
+}
+form {
+  padding: 2rem 4rem 0rem 4rem;
+}
+input {
+  padding: .5rem;
+  outline: none;
+  border-radius: .3rem;
+
+  border: 1px solid grey;
+}
+.home{
+  text-align: center;
+}
+.select {
+  display: flex;
+
+}
+.s1{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.s1 input {
+  margin-right: .5rem;
+}
+.oval{
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex2{
+  display: flex;
+  justify-content: space-between;
+}
+.build{
+  padding: 2rem 4rem 2rem 4rem;
+}
+div{
+  border: 1px solid black;
+  margin: .5rem;
+  box-sizing: border-box;
+}
+#bd{
+  border: none;
+}
+#bd-2{
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+#bd-2 input {
+  width: 10%;
+}
+.sel {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.live p {
+margin-left: 2rem;
+
+}
+#bd h1 {
+  margin-left: 2rem;
+}
