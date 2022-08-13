@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+.box{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  width: 100%;
+ padding: 0.5rem;
+ background-color: rgb(240, 240, 240);
+}
+.tab{
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+
+
+}
+.tab th {
+  width:max-content;
+  height :2rem;
+}
+th{
+  text-align: left;
+}
+.data td{
+ padding: .5rem;
+}
+.click {
+  cursor: pointer;
+  color: rgb(12, 147, 244);
+  text-decoration: none;
+}
+.click :hover{
+  text-decoration: underline;
+}
+.text {
+  color: rgb(66, 65, 65);
+}
+.data {
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+td, th {
+  border: none;
+}
+#tab1{
+  width: 100%;
+
+  
+}
+.page{
+ 
+  height: max-content;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  padding: 6rem;
+  background-color: rgb(240, 240, 240);
+  box-sizing: border-box;
+}
+.item{
+  width:100%;
+ background-color: white;
+ box-sizing: border-box;
+ padding: 1rem;
+}
+.flex{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.flex button {
+  padding: .5rem;
+
+  cursor: pointer;
+  background-color: white;
+}
+.flex button:active{
+  font-size: .5rem;
+}
