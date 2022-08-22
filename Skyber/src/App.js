@@ -4,7 +4,7 @@ import React, { createContext,useState } from "react";
 import ReactSwitch from "react-switch";
 export const ThemeContext = createContext(null);
 function App() {
-  const [Theme,SetTheme]=useState("dark");
+  const [Theme,SetTheme]=useState("light");
   const ToggleTheme=()=>{
     SetTheme((curr)=>(curr==="light"?"dark":"light"))
   }
