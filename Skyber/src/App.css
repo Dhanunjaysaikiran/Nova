@@ -1,0 +1,212 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.error{
+  color: red;
+}
+label,input{
+  display: block;
+}
+.flex{
+  display: flex;
+  width: 100%;
+}
+Form{
+  width: 100%;
+
+  padding: 5rem;
+ 
+  border-radius: 15px;
+}
+p{
+  margin-bottom: 1rem;
+}
+.child input{
+  width: 70%;
+  padding: .7rem;
+}
+.child{
+  width: 50%;
+}
+
+select{
+  width: 50%;
+  padding: .7rem;
+ font-size: 1rem;
+
+}
+#light Form{
+  border: 1px solid #e4e4e4;
+  background-color: #fafafa;
+}
+#light select{
+  border: 1px solid #e4e4e4;
+}
+input,select{
+  border-radius: 6px;
+  outline: none;
+}
+#light input{
+
+  border: 1px solid #c4c4c4;
+}
+
+#light button{
+  background-color: white;
+  border: 1px solid #c4c4c4;
+}
+#light .up{
+  background-color: #e9e5e6;
+}
+#light .low{
+  background-color: white;
+}
+#light .rec{
+  background-color: #f2f9f6;
+}
+#light #wt{
+  background-color: #fafafa;
+}
+#light label,option {
+  color: #364e6b;
+}
+#light h4,p{
+  color: black;
+}
+#light button {
+  color: black;
+}
+#light,#dark{
+  padding: 2.5rem 5rem 2.5rem 5rem;
+}
+#light {
+  background-color: white;
+  
+}
+option{
+  font-size: 1rem;
+  
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+button {
+ cursor: pointer;
+  padding: 1rem;
+  border-radius: 4px;
+
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4{
+  text-transform: uppercase;
+}
+.reco {
+  width: 100%;
+ margin-bottom: 4rem;
+ margin-top: 4rem;
+
+}
+.square{
+  height: 90px;
+  width: 90px;
+}
+
+.up{
+ 
+  border-radius: 5px 5px 0px 0px;
+
+}
+.low{
+ 
+  border-radius: 0px 0px 5px 5px;
+}
+.rec{
+ 
+  display: flex;
+  height: 122px;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 15px 15px 0px 0px;
+
+}
+.up,.low{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 50%;
+box-shadow: #c4c4c4;
+}
+.gap{
+  margin-left: 1rem;
+}
+.long{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#wt{
+  
+  border-radius: 0px 0px 15px 15px;
+  justify-content: space-around;
+}
+#wt h4{
+  text-align: center;
+}
+.be{
+  margin-bottom: 3rem;
+}
+#dark Form{
+  border: 1px solid #898989;
+  background-color: rgb(34, 34, 34);
+}
+#light select{
+  border: 1px solid #969696;
+}
+#dark label{
+  color: white;
+}
+#dark input{
+
+  border: 1px solid #c4c4c4;
+}
+
+#dark button{
+  background-color: rgb(92, 86, 86);
+  border: 1px solid #c4c4c4;
+}
+#dark button {
+  color: white;
+  border: none;
+}
+#dark .up{
+  background-color: #c2c2c2;
+}
+#dark .low{
+  background-color: black;
+}
+#dark .rec{
+  background-color: #9a9d9b;
+}
+#dark #wt{
+  background-color: #5c5c5c;
+}
+#dark option {
+  color: black;
+}
+#dark p,h4{
+  color: white;
+}
+#dark  {
+  background-color: black;
+}
