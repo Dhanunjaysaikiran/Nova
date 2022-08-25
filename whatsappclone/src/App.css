@@ -1,0 +1,218 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+h1{
+  color: #607c85;
+}
+.tir{
+  width: 30%;
+  padding: .5rem 1rem .5rem 1rem;
+  border-right: 1px solid #485458;
+}
+.cpages{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.cpages p{
+  
+  color: #607c85;
+}
+.cpage{
+  height: 100%;
+  width: 70%;
+  background-color: #222e35;
+  
+}
+.fly{
+  display: flex;
+  width: 100%;
+  height: 90%;
+}
+.mainchat{
+  width: 100%;
+  height: 100%;
+  background-image: url('./jt4AoG.webp');
+  background-size: contain;
+  position: relative;
+
+}
+.mainchat .inputfield{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding:0.4rem 1.5rem 0.4rem 1.5rem;
+  box-sizing: border-box;
+  background-color: #202c33;
+ 
+}
+.inputfield{
+  display: flex;
+
+}
+.inputfield #tet{
+  width: 65%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #2a3942;
+  color: #8696a0;
+}
+#none{
+  display: none;
+}
+.nav{
+  background-color: #202c33;
+  height: 10%;
+  width: 100%;
+  display: flex;
+ 
+}
+.chats{
+  width: 30%;
+  height: 100%;
+  background-color: #111b21;
+}
+.inp{
+background-color: #111b21;
+display: flex;
+padding: 8px 1rem 8px 1rem;
+
+flex-direction: column;
+}
+.inp #srch{
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #202c33;
+  color: #607c85;
+  padding: 6px 12px 6px 12px;
+  
+}
+html, body,#root,#root>div{
+  height: 100%;
+}
+.App{
+  height: 100%;
+  width: 100%;
+}
+.contact{
+  width: 100%;
+  color: #607c85;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 1rem 8px 1rem;
+  border-bottom: 1px solid #485458;
+  cursor: pointer;
+}
+.contact:hover{
+  background-color: #202c33;
+}
+#bd{
+  border-bottom:4px solid #008069 ;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.dp{
+  width: 50px;
+  height: 50px;
+  background-image: url("./dp.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  margin-right: 1rem;
+ 
+
+}
+.dp1{
+  width: 40px;
+  height: 40px;
+  background-image: url("./my.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+#gap{
+  margin-left: 1rem;
+  color: #607c85;
+}
+img{
+  width: 20px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+#nova{
+  pointer-events: none;
+  cursor: pointer;
+}
+.image-upload{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-upload > input {
+  
+  visibility:hidden;
+  width:0;
+  height:0
+}
+.msg{
+  background-color: #008069;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+ margin-left: auto;
+ margin-right: 0;
+  max-width: 800px;
+  height: auto;
+ position: relative;
+ right: 10px;
+}
+.contra{
+  overflow-y: hidden;
+  padding: 0px;
+  width: 100%; 
+}
+.right {
+  width: 100%;
+  flex-direction: column-reverse;
+  display: flex;
+}
+.App{
+  position: relative;
+}
+.nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.chats{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  top: 62px;
+}
+.cpage{
+  position: fixed;
+  top: 4rem;
+  right: 0px;
+}
+.msg img{
+  width: 200px;
+  height: 200px;
+}
