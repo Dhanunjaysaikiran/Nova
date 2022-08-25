@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body ,#root,.App{
+    width: 100%;
+    height: fit-content;
+}
+h2{
+    color: #39ff14;
+    text-align: center;
+}
+.App{
+    padding: 1rem;
+    background-color: black;
+}
+.form{
+    background-color: #212121;
+}
+label {
+    color: white;
+}
+label,input{
+    display: block;
+}
+.form{
+    width: 49%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+input,select{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin-bottom: 1rem;
+    outline: #39ff14;
+}
+button{
+    background-color: #39ff14;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    margin-top: 1rem;
+   cursor: pointer;
+}
+button:active{
+    font-size: 10px;
+}
+.nav{
+    background-color: #212121;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.task span{
+    color: white ;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+select, input, button{
+    border-radius: 6px;
+}
+.votes{
+    width: 100%;
+    padding: 1rem;
+    background-color: #212121;
+    margin-top: 1rem;
+}
+th{
+    color: #39ff14;
+}
+.error{
+    color: red;
+}
+.center{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 4rem;
+    height: fit-content;
+    box-sizing: border-box;
+}
+th,td {
+    padding: 0 6rem;
+}
+tbody{
+    color: white;
+    text-align: center;
+}
+.nova{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dp span{
+    display: block;
+    color: white;
+}
