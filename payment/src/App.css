@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-size: calc(10px + 2vmin);
+}
+.nav {
+  background-color: white;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.cs {
+  color: #fbc168;
+}
+.flex {
+  display: flex;
+}
+
+.part {
+  width: 30%;
+  justify-content: space-around;
+  display: flex;
+}
+.middle {
+  width: 15%;
+  justify-content: space-between;
+  display: flex;
+}
+.tir {
+  width: 15%;
+}
+.gap {
+  margin-left: 1rem;
+}
+.full {
+  width: 100%;
+}
+.half {
+  width: 50%;
+}
+input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 40px;
+  margin: 1rem 0 1rem 0;
+  border: 1px solid #d3d2d2;
+  outline: none;
+}
+.max {
+  position: relative;
+}
+.error {
+  font-size: 18px;
+  color: red;
+  position: absolute;
+  bottom: -3px;
+  left: 10px;
+}
+.quarter {
+  width: 40%;
+}
+button {
+  padding: 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.green {
+  background-color: #7ad0a7;
+  color: white;
+  border: 1px solid #7ad0a7;
+}
+.btw {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.tap {
+  cursor: pointer;
+}
+.thir {
+  width: 30%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.grid img {
+  width: 40%;
+}
+.bd {
+  border: 1px solid #d3d2d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.bd:hover {
+  border: 1px solid #fce7c3;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem;
+}
+.grid2 img {
+  width: 35%;
+}
+.grid,
+.grid2 {
+  margin-bottom: 2rem;
+}
+.pd {
+  padding: 0 3.5rem 0 1.5rem;
+}
+
+.wd img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.btw {
+  justify-content: space-between;
+}
+.pad {
+  padding: 1.5rem;
+}
+.xp {
+  padding: 1rem 3rem 1rem 3rem;
+}
+.topgap {
+  margin-top: 4rem;
+}
+p {
+  font-size: 18px;
+}
+.par {
+  width: 180px;
+}
+.per {
+  width: 60%;
+}
+.center {
+  justify-content: center;
+}
+.col {
+  flex-direction: column;
+}
+.dp {
+  width: 60%;
+}
+.hi {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background-color: #e2e0e0;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+}
+.gp {
+  margin: 1rem 0 1rem 0;
+}
+.a {
+  color: #727272;
+}
+.topm {
+  margin: 4rem 0 4rem 0;
+}
+.click {
+  cursor: pointer;
+}
