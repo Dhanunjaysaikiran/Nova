@@ -512,6 +512,7 @@ img {
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  margin-top: var(--mb-2);
 }
 .qualification__subtitle {
   display: inline-block;
